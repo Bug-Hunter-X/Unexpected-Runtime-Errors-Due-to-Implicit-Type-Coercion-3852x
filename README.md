@@ -1,0 +1,3 @@
+# TypeScript Implicit Type Coercion Bug
+
+This example demonstrates a common issue in TypeScript where implicit type coercion can lead to runtime errors. The `add` function is defined to accept two numbers, but it doesn't explicitly prevent the addition of strings. TypeScript's type system does not fully catch this error.  This can result in unexpected behavior and runtime exceptions during execution. The solution shows how to add input validation to prevent this type of error.
